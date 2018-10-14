@@ -1,4 +1,4 @@
-# Create Action
+ # Create Action
 
 In this lesson, we'll code a `create` action — '**C**' in the '**CRUD**' life
 cycle — that saves a new `Post` object and then redirects to the newly-created
@@ -13,6 +13,7 @@ post.title = "Title Goes Here"
 post.description = "Desc goes here..."
 post.save
 ```
+<!-- post.title = "Title Goes Here" && post.description = "Desc goes here" -->
 
 This syntax will let you manually create a new `Post` record with `title` and
 `description` attributes. After running the `save` method in the console, you
